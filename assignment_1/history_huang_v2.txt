@@ -1,0 +1,333 @@
+    1  ls
+    2  pwd
+    3  /cita/local/bin/passwd
+    4  .
+    5  ls
+    6  .q
+    7  quit
+    8  /cita/local/bin/passwd
+    9  cd ..
+   10  ls
+   11  /cita/local/bin/passwd
+   12  exit
+   13  cd /mnt/scratch-lustre/bhuang
+   14  pwd
+   15  git clone https://github.com/CITA/CTA200H.git
+   16  ls
+   17  cd CTA200H/
+   18  ls
+   19  git pull
+   20  touch fileread.cpp
+   21  ls
+   22  git add fileread.cpp
+   23  git status
+   24  git commit -m "Fixed bug in file read for large files"
+   25  git clone https://github.com/BrianPHuang/CTA200H_brian
+   26  ls
+   27  cd CTA200H_brian/
+   28  ls
+   29  cd ..
+   30  pwd
+   31  cd CTA200H/
+   32  ls
+   33  rm -rf CTA200H_brian
+   34  ls
+   35  rm fileread.cpp 
+   36  ls
+   37  cd ..
+   38  pwd
+   39  git clone https://github.com/BrianPHuang/CTA200H_brian/blob/master/lecture_1_linux_git/git.md
+   40  git clone https://github.com/BrianPHuang/CTA200H_brian
+   41  git pull
+   42  ls
+   43  cd CTA200H_brian/
+   44  git pull
+   45  touch hellocita
+   46  git add hellocita
+   47  git commit -m "Fixed bug in file read for large files"
+   48  git status
+   49  git push
+   50  ls
+   51  cd Desktop/
+   52  ls
+   53  git clone https://github.com/BrianPHuang/CTA200H_brian
+   54  ls
+   55  cd CTA200H_brian/
+   56  ls
+   57  git pull
+   58  touch hellocita
+   59  ls
+   60  git add hellocita 
+   61  git commit -m "Fixed bug in file read for large files"
+   62  git push
+   63  exit
+   64  ls
+   65  cd Desktop/
+   66  ls
+   67  cd CTA200H_brian/
+   68  ls
+   69  /fs/lustre/scratch/bhuang
+   70  cd /fs/lustre/scratch/bhuang
+   71  pwd
+   72  mkdir CTA200_2025
+   73  cd CTA200_2025/
+   74  touch assignment_1
+   75  touch README.md
+   76  emacs README.md 
+   77  vi README.md 
+   78  ls
+   79  rm assignment_1 
+   80  ls
+   81  mkdir assigment_1
+   82  ls
+   83  cd ..
+   84  ls
+   85  cd ..
+   86  ls
+   87  pwd
+   88  cd ~
+   89  ls
+   90  cd Desktop/
+   91  ls
+   92  cd ..
+   93  cd Desktop/
+   94  ls
+   95  cd /fs/lustre/scratch/bhuang/
+   96  ls
+   97  cd /fs/lustre/scratch/murray
+   98  find . -name "Hello_world.c"
+   99  pwd
+  100  ls
+  101  cd /fs/lustre/scratch/bhuang
+  102  pwd
+  103  ls
+  104  exit
+  105  ls
+  106  cd Desktop/
+  107  ls
+  108  cd CTA200H_brian/
+  109  ls
+  110  mv CTA200_2025 ..
+  111  ls
+  112  cd ..
+  113  ls
+  114  exit
+  115  apt-get install openvpn
+  116  ssh -D 2400 username@shrimp.cita.utoronto.ca
+  117  ssh -D 2400 bhuang@shrimp.cita.utornto.ca
+  118  ssh -D 2400 bhuang@shrimp.cita.utoronto.ca
+  119  ssh -D 2400 bhuang@cosmo9.cita.utornto.ca
+  120  ssh -D 2400 bhuang@cosmo9.cita.utoronto.ca
+  121  ssh -D 2400 bhuang@cosmo2.cita.utoronto.ca
+  122  ssh -D 2400 bhuang@cosmo9.cita.utoronto.ca
+  123  ls
+  124  cd /fs/lustre/scratch/bhuang
+  125  ls
+  126  pwd
+  127  cd ..
+  128  pwd
+  129  cd 
+  130  pwd
+  131  ls
+  132  cd Desktop/
+  133  ls
+  134  cd CTA200H_brian/
+  135  ls
+  136  mkdir assignment_1
+  137  touch README.md
+  138  vi README.md 
+  139  ls
+  140  ls -l
+  141  rm -rf
+  142  ls
+  143  rm -rf assignment_1/
+  144  mkdir CTA200_2025
+  145  cd CTA200_2025/
+  146  ls
+  147  mkdir assignment_1
+  148  ls
+  149  touch README.md
+  150  vi README.md 
+  151  ls
+  152  ssh -D 2400 bhuang@cosmo9.cita.utoronto.ca
+  153  ssh -D 2400 bhuang@cosmo4.cita.utoronto.ca
+  154  ssh -D 2400 bhuang@cosmo2.cita.utoronto.ca
+  155  ssh -D 2400 bhuang@cosmo4.cita.utoronto.ca
+  156  ssh cosmo4
+  157  ssh bhuang@cosmo4
+  158  ssh -D 2400 bhuang@cosmo4.cita.utoronto.ca
+  159  ssh -D 2400 bhuang@cosmo9.cita.utoronto.ca
+  160  ls
+  161  ssh -D 2400 bhuang@cosmo2.cita.utoronto.ca
+  162  ls
+  163  cd Des
+  164  cd Desktop/
+  165  ls
+  166  cd CTA200_2025/
+  167  ls
+  168  cd /fs/lustre/scratch/
+  169  ls
+  170  cd ..
+  171  ls
+  172  cd ..
+  173  cd ~
+  174  ls
+  175  exit
+  176  module load python/3.10.2
+  177  jupyter notebook --port=1234 --no-browser
+  178  exit
+  179  module load python/3.10.2
+  180  jupyter notebook --port=7482 --no-browser
+  181  exit
+  182  ls
+  183  cd Desktop/
+  184  ls
+  185  jupyter notebook --port=1234 --no-browser
+  186  ssh -L 1234:localhost:1234 cosmo6
+  187  ssh -L 7482:localhost:7482 cosmo6
+  188  exit
+  189  ls
+  190  cd Desktop/
+  191  ls
+  192  cd CTA200_2025/
+  193  ls
+  194  cd assignment_1/
+  195  ls
+  196  module load gcc/12.2.0
+  197  module load gcc
+  198  gcc Hello_world_Huang.c -o Hello_world.x
+  199  emacs Hello_world_your-huang.c 
+  200  gcc Hello_world_Huang.c -o Hello_world.x
+  201  emacs Hello_world_your-huang.c 
+  202  ls
+  203  gcc Hello_world_huang.c -o Hello_world.x
+  204  ls
+  205  gcc Hello_world_your-huang.c -o Hello_world_your-huang.x
+  206  ./Hello_world_your-huang.x 
+  207  emacs Hello_world_your-huang.py 
+  208  python Hello_world_your-huang.py
+  209  emacs Hello_world_your-huang.c
+  210  emacs Hello_world_your-huang.py
+  211  emacs Hello_world_your-huang.c
+  212  gcc Hello_world_your-huang.c -o Hello_world_your-huang.x
+  213  ./Hello_world_your-huang.x 
+  214  python Hello_world_your-huang.py
+  215  ./Hello_world_your-huang.x > output_c.txt
+  216  python Hello_world_your-huang.py > output_python.txt
+  217  ls
+  218  history > history.txt
+  219  ls
+  220  less history.txt 
+  221  rm history.txt 
+  222  history > history_huang.txt
+  223  less history_huang.txt 
+  224  cd ..
+  225  ls
+  226  git add assignment_1/README.md
+  227  cd assignment_1/
+  228  ls
+  229  git add README.md 
+  230  ls
+  231  cd ..
+  232  ls
+  233  cd ..
+  234  ls
+  235  cd CTA200_2025/
+  236  git init
+  237  git add README.md 
+  238  git commit -m "Add README.md file"
+  239  git add assignment_1/Hello_world_your-huang.c assignment_1/Hello_world_your-huang.py
+  240  git commit -m "Add updated Hello World programs"
+  241  git add assignment_1/output_c.txt assignment_1/output_python.txt assignment_1/history.txt
+  242  git add assignment_1/output_c.txt assignment_1/output_python.txt assignment_1/history_huang.txt 
+  243  git commit -m "Add program outputs and command history"
+  244  git status
+  245  git add assignment_1/Hello_world_your-hua
+  246  git commit -m "Add executable file"
+  247  git status
+  248  git remote add origin https://github.com/BrianPHuang/CTA200_2025.git
+  249  git branch -M main
+  250  git push -u origin main
+  251  exit
+  252  ls
+  253  cd Desktop/
+  254  ls
+  255  cd CTA200_2025/
+  256  ls
+  257  cd assignment_1/
+  258  touch Hello_world_your-huang.c Hello_world_your-huang.py
+  259  ls
+  260  ssh -D 2400 bhuang@cosmo6.cita.utoronto.ca
+  261  exit
+  262  ssh -L 7482:localhost:7482 cosmo6
+  263  module load python/3.10.2
+  264  jupyter notebook --port=7482 --no-browser
+  265  ssh -L 7482:localhost:7482 cosmo6
+  266  module load python/3.10.2
+  267  jupyter notebook --port=7482 --no-browser
+  268  ls
+  269  cd Desktop/CTA200_2025/
+  270  ls
+  271  git add assignment_2/assignment_2_notebook.ipynb 
+  272  git commit -m "assignment 2 jupyter notebook"
+  273  git push
+  274  /cita/local/bin/passwd
+  275  exit
+  276  ssh -L 7482:localhost:7482 cosmo6
+  277  module load python/3.10.2
+  278  jupyter notebook --port=7482 --no-browser
+  279  git add assignment_2/assignment_2_notebook.ipynb 
+  280  git commit -m "assignment 2 jupyter notebook"
+  281  git push
+  282  git status
+  283  ls
+  284  cd Desktop/CTA200_2025/
+  285  git add assignment_2/assignment_2_notebook.ipynb 
+  286  git commit -m "Slightly modified for the answer"
+  287  git push
+  288  module load python/3.10.2
+  289  jupyter notebook --port=7482 --no-browser
+  290  cd ..
+  291  ls
+  292  module load python/3.10.2
+  293  jupyter notebook --port=7482 --no-browser
+  294  ls
+  295  d /fs/lustre/scratch 
+  296  d /fs/lustre/scratch/murray
+  297  cd /fs/lustre/scratch/murray
+  298  ls
+  299  cd repos/
+  300  ls
+  301  cd ..
+  302  cd src/
+  303  ls
+  304  cd ..
+  305  cd Pictures/
+  306  ls
+  307  cd ..
+  308  cd ~
+  309  ls
+  310  cd Desktop/
+  311  ls
+  312  cd /home/murray/Papers/tmp/
+  313  ls
+  314  cd ../../..
+  315  ls
+  316  cd murray/
+  317  ls
+  318  find . -name "Hello_world.c"
+  319  find . -name "Hello_world.py"
+  320  cd Papers/tmp/
+  321  ls
+  322  cp Hello_world.c Hello_world_huang_copy.c /home/bhuang/Desktop/CTA200_2025/assignment_1/
+  323  cp Hello_world.c /home/bhuang/Desktop/CTA200_2025/assignment_1/
+  324  cp Hello_world.c /home/bhuang/Desktop/CTA200_2025
+  325  cd ../../tmp/
+  326  ls
+  327  pwd
+  328  cp Hello_world.py /home/bhuang/Desktop/CTA200_2025
+  329  cd /home/bhuang/Desktop/CTA200_2025/
+  330  ls
+  331  cd assignment_1/
+  332  ls
+  333  history > history_huang_v2.txt 
